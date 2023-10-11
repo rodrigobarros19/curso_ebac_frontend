@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+    <html lang="pt-br">
+    
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" type="text/css" href="main.css" media="screen">
+            <script src="./main.js" defer></script>
+            <title>Validação de Números</title>
+        </head>
+        
+        <body>
+            <h1 id="titulo"> Formulário de Validação de Números </h1>
+
+            <p id="subtitulo">Insira os números abaixo:</p><br><br>
+    
+            <fieldset class="grupo">    
+                
+                    <form id="formulario">
+                        <div class="campo">
+                            <label for="numeroA"><strong> Número A </strong></label>
+                            <input type="number" id="campoA" name="campoA" required><br><br>
+                        </div>
+
+                        <div class="campo">
+                            <label for="numeroB"><strong> Número B </strong></label>
+                            <input type="number" id="campoB" name="campoB" required><br><br>
+                        </div>   
+                        <div class="campo">
+                            <button class="botao" type="submit"> VALIDAR </button>
+                        </div>
+                    </form>
+                
+            </fieldset>
+
+            <div id="mensagem"></div>
+            
+        </body>
+
+    </html>
